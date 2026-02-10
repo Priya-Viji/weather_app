@@ -38,9 +38,9 @@ flutter test
 If mocks are updated:
 dart run build_runner build --delete-conflicting-outputs
 
-##  Testing Approach
+## Testing Approach
 Unit tests validate the WeatherBloc logic using bloc_test and mockito.  
 The GetWeather use-case is mocked to isolate business logic.
 
-## 📬 Contact
+## Contact
 Feel free to reach out or improve this project.
