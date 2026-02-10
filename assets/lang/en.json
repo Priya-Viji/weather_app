@@ -1,0 +1,16 @@
+{
+    "enterCity": "Enter city",
+    "startTyping": "Start typing to search cities...",
+    "errorCityNotFound": "City not found",
+    "errorGeneric": "Something went wrong",
+    "getWeather": "Get weather",
+    "temperature": "Temperature",
+    "condition": "Condition",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "minmax": "Min / Max",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset",
+    "noInternet": "No Internet Connection",
+    "retry": "Retry"
+}
