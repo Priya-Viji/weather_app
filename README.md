@@ -1,20 +1,46 @@
-# weather_app
-<<<<<<< HEAD
+# Weather App
 
-A new Flutter project.
+A Flutter application that displays real-time weather information for any city.  
+This project follows Clean Architecture and uses BLoC for state management.
 
-## Getting Started
+## Features
+- Search weather by city name
+- Shows temperature, humidity, wind speed, sunrise & sunset
+- Clean UI
+- Error handling for API failures
+- Unit-tested BLoC logic
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- BLoC (flutter_bloc)
+- Clean Architecture
+- bloc_test & mockito for testing
+- OpenWeather API
 
-A few resources to get you started if this is your first Flutter project:
+## Running the Application
+1. Install dependencies:
+   flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+2. Run the app:
+   flutter run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-Machine Task
->>>>>>> 9fee4d30c3dc03408197eedb81219c2f7172f999
+## API Key Setup
+Create:
+lib/core/api_keys.dart
+
+Add:
+const String weatherApiKey = "YOUR_API_KEY_HERE";
+
+## Running Tests
+Run all tests:
+flutter test
+
+If mocks are updated:
+dart run build_runner build --delete-conflicting-outputs
+
+## Testing Approach
+Unit tests validate the WeatherBloc logic using bloc_test and mockito.  
+The GetWeather use-case is mocked to isolate business logic.
+
+## Contact
+Feel free to reach out or improve this project.
