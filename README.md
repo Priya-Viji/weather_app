@@ -1,7 +1,7 @@
 # Weather App
 
 A Flutter application that displays real-time weather information for any city.  
-This project follows Clean Architecture and uses BLoC for state management.
+This project follows uses BLoC for state management.
 
 ## Features
 - Search weather by city name
@@ -13,7 +13,7 @@ This project follows Clean Architecture and uses BLoC for state management.
 ## Tech Stack
 - Flutter
 - BLoC (flutter_bloc)
-- Clean Architecture
+- Hive
 - bloc_test & mockito for testing
 - OpenWeather API
 
@@ -26,7 +26,7 @@ This project follows Clean Architecture and uses BLoC for state management.
 
 ## API Key Setup
 Create:
-lib/core/api_keys.dart
+lib/core/constantsapi_keys.dart
 
 Add:
 const String weatherApiKey = "YOUR_API_KEY_HERE";
