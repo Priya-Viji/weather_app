@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class AppConstants {
   // City search URL
@@ -10,7 +11,7 @@ class AppConstants {
       'https://api.openweathermap.org/data/2.5/weather?q=';
 
   // API Key
-  static const String apiKey = '1c38b5bad5a8eccf0563b6164576de28';
+  static String get apiKey => dotenv.env['OPENWEATHER_API_KEY'] ?? '';
 
   // Supported languages
   static const supportedLanguages = [

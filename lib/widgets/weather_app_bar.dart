@@ -6,11 +6,8 @@ import 'package:weather_app/core/constants/app_colors.dart';
 import 'package:weather_app/core/constants/app_constants.dart';
 import 'package:weather_app/core/theme/theme_provider.dart';
 
-/// WeatherAppBar
-/// --------------
+
 /// A reusable custom AppBar widget used in WeatherScreen.
-/// It keeps the same design: transparent background, rounded buttons,
-/// language switcher, and theme toggle.
 class WeatherAppBar extends StatelessWidget implements PreferredSizeWidget {
   const WeatherAppBar({super.key});
 

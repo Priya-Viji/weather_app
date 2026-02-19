@@ -5,11 +5,13 @@ import 'package:provider/provider.dart';
 import 'package:weather_app/data/models/weather_model.dart';
 import 'package:weather_app/screens/splash_screen.dart';
 import 'package:weather_app/core/theme/theme_provider.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 void main() async {
   //Flutter initialized
   WidgetsFlutterBinding.ensureInitialized();
-
+  await dotenv.load(fileName: ".env");
+  
   //Localization initialized
   await EasyLocalization.ensureInitialized();
 

@@ -1,6 +1,6 @@
 {
     "enterCity": "Enter city",
-    "startTyping": "Start typing to search cities...",
+    "startTyping": "Start typing to Search cities...",
     "errorCityNotFound": "City not found",
     "errorGeneric": "Something went wrong",
     "getWeather": "Get weather",
